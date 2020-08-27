@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-size: 100%;
+
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root,
+.wrapper {
+  position: relative;
+  height: 100%;
+  min-height: 100% !important;
+}
+
+.card-view--padding,
+.wrapper--padding {
+  padding: 20px;
+}
+
+.card-view {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 -4px 20px 0 rgba(26, 26, 26, 0.15);
+
+  margin-top: 8px;
+}
+
+.card-view__close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-view__close .button {
+  height: auto;
+  line-height: normal;
+  padding: 0px;
+}
+
+.card-view__close .button__with-icon img {
+  margin-right: 0px;
+}
+
+.card-view__title,
+.list-item__title {
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+
+.card-view__title .residence,
+.list-item__title .residence {
+  justify-self: end;
+  vertical-align: text-top;
+}
+
+.card-view__title .residence .button,
+.list-item__title .residence .button {
+  height: auto;
+  line-height: normal;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+[contenteditable],
+button {
+  outline: 0px transparent solid;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.9375em;
+}
+
+.heading {
+  display: block;
+  width: 100%;
+}
+
+.heading h1,
+.heading h2,
+.heading h3,
+.heading h4 {
+  font-weight: 300;
+  margin: 0px;
+}
+
+.heading--variant-h1 h1 {
+  font-size: 1.5em;
+}
+
+.heading--variant-h2 h2 {
+  font-size: 1.25em;
+}
+
+.heading--variant-h1 h1 > span,
+.heading--variant-h2 h2 > span {
+  font-weight: 500;
+}
+
+.heading--variant-h3 h3 {
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+
+.heading--variant-h4 h4 {
+  font-size: 0.9375em;
+}
+
+.heading--color-primary {
+  color: #1a1a1a;
+}
+
+.heading--color-secondary {
+  color: white;
+}
+
+.toolbar {
+
+}
+
+.toolbar--show {
+  display: block;
+}
+
+.toolbar--hide {
+  display: none;
+}
+
+.layout--columns {
+  column-gap: 20px;
+  display: grid;
+}
+
+.layout--columns-2 {
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.layout--columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.page-views {
+
+}
+
+.share {
+
+}
+
+button.page-views--padding,
+button.share--padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}

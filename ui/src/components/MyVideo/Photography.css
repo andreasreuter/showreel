@@ -1,0 +1,34 @@
+.photography {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.photography__bottom {
+  height: 100%;
+  position: relative;
+}
+
+.photography__icon {
+  height: 44px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-22px) translateY(-22px);
+  width: 44px;
+}
+
+.with-heading {
+  transform: translateX(-22px) translateY(-38px);
+}
+
+.photography .heading--variant-h2 {
+  bottom: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateY(50%);
+}
+
+.photography__icon + .heading--variant-h2 {
+  transform: translateY(38px);
+}

@@ -1,0 +1,6 @@
+.loader-gif {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}

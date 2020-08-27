@@ -1,0 +1,20 @@
+.coming-soon {
+  align-items: center;
+  display: flex;
+}
+
+.coming-soon__icon {
+  background-color: #690ff0;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 32px;
+  justify-content: center;
+  margin-right: 5px;
+  width: 32px;
+}
+
+.coming-soon__text {
+  color: #1a1a1a;
+  font-size: 0.875rem;
+  font-weight: 500;
+}

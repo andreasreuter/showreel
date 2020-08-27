@@ -1,0 +1,40 @@
+.modal {
+  background: black;
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 40;
+}
+
+.modal-main {
+  background: white;
+  border-radius: 10px;
+  height: auto;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 40px);
+}
+
+.modal--show {
+  display: block;
+}
+
+.modal--hide {
+  display: none;
+}
+
+.modal .close {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 20;
+}
+
+.modal .close .button {
+  padding: 0;
+}

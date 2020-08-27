@@ -1,0 +1,9 @@
+{
+  "short_name": "Artists | Art Lovers",
+  "name": "Art discovery",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "white",
+  "background_color": "white"
+}

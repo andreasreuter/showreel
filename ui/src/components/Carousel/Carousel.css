@@ -1,0 +1,67 @@
+.carousel {
+  /* give a height because all children have an absolute position */
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 40;
+}
+
+.carousel-buttons button.button {
+  height: initial;
+  line-height: initial;
+}
+
+.carousel-buttons button.back {
+  justify-self: start;
+}
+
+.carousel-buttons button.next {
+  justify-self: end;
+}
+
+.carousel-buttons button.button--hide {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+button.back--padding,
+button.next--padding {
+  /* increase touch surface */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button.back img.image,
+button.next img.image {
+  margin-right: 0px;
+}
+
+.carousel-items {
+  height: 100%;
+}
+
+.carousel-item {
+  /* one carousel item above the other */
+  position: absolute;
+  width: 100%;
+}
+
+.carousel-item a {
+  border-radius: 10px;
+  display: flex;
+  height: 480px;
+  justify-content: center;
+  max-height: 480px;
+  overflow: hidden;
+}
+
+.carousel-item a > img.image {
+  height: 480px;
+}

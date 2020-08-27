@@ -1,0 +1,49 @@
+.art {
+  background: #000;
+  height: inherit;
+}
+
+.art .close,
+.art .heading,
+.art .social-toolbar {
+  position: fixed;
+  z-index: 20;
+}
+
+.art .close {
+  top: 8px;
+  right: 9px;
+  z-index: 40;
+}
+
+.art .close .button {
+  padding: 0px;
+}
+
+.art .heading {
+  margin-top: 11px;
+  margin-left: 16px;
+  width: 80%;
+}
+
+.art .social-toolbar {
+  align-items: flex-end;
+  bottom: 22px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.art .art__image {
+  height: 100%;
+  border-radius: 10px;
+  -webkit-mask-image: radial-gradient(circle, white 100%, black 100%);
+}
+
+.art .art__image img {
+  height: 100%;
+  left: 50%;
+  position: fixed;
+  transform: translateX(-50%);
+}

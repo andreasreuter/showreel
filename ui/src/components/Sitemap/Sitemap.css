@@ -1,0 +1,99 @@
+.sitemap {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.sitemap .close {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 20;
+}
+
+.sitemap .close .button {
+  padding: 0px;
+}
+
+.sitemap .sitemap__header {
+  display: grid;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.sitemap .sitemap__header .logo {
+  justify-self: center;
+}
+
+.sitemap .layout--columns {
+  grid-column-gap: 0px;
+  column-gap: 0px;
+}
+
+.user {
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user.layout--columns-2 {
+  grid-template-columns: 109px auto;
+}
+
+.user__meta a {
+  color: #1a1a1a;
+  font-size: 0.9375em;
+  font-weight: normal;
+}
+
+.user__photography img {
+  border-radius: 50%;
+  height: 83px;
+  width: 83px;
+}
+
+.navbar ol {
+  list-style: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.navbar__item {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.navbar__item:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+.navbar__item a {
+  color: #1a1a1a;
+}
+
+.navbar__item.navbar--coming-soon {
+  font-size: 1.375em;
+  font-weight: normal;
+}
+
+.navbar__item.layout--columns-2 {
+  grid-template-columns: 62% 38%;
+}
+
+.navbar--coming-soon a {
+  align-items: center;
+  display: flex;
+}
+
+footer {
+  bottom: 22px;
+  position: absolute;
+}
+
+.copyright {
+  color: #1a1a1a;
+  font-size: 0.6875em;
+}
+
+.button.sitemap__button {
+  padding-left: 20px;
+}

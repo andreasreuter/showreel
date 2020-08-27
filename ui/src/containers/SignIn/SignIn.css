@@ -1,0 +1,17 @@
+.sign-in {
+  display: grid;
+  grid-row-gap: 25px;
+  padding: 25px;
+}
+
+.sign-in .logo {
+  justify-self: center;
+}
+
+.sign-in .facebook-button {
+  width: 100%;
+}
+
+.google-privacy-policy {
+  color: rgba(26, 26, 26, 0.2);
+}

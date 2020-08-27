@@ -1,0 +1,78 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "Contains the frontend of art discovery.",
+  "watch": {
+    "start": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx,css"
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "watch": "npm-watch",
+    "lint": "eslint .",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sb": "start-storybook -p 9009 -s public,src/icons",
+    "build-sb": "build-storybook -s public",
+    "sg": "styleguidist server",
+    "build-sg": "styleguidist build"
+  },
+  "author": {
+    "name": "Andreas Reuter",
+    "email": "contact@andreas-reuter.com",
+    "url": "https://www.andreas-reuter.com"
+  },
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/andreasreuter/showcase/issues"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "apollo-boost": "^0.4.7",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-link-persisted-queries": "^0.2.2",
+    "eslint-plugin-react": "^7.18.0",
+    "graphql": "^14.6.0",
+    "gsap": "^3.2.6",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-styleguidist": "^10.6.2",
+    "react-swipeable": "^5.5.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/preset-create-react-app": "^2.0.0",
+    "@storybook/react": "^5.3.14",
+    "npm-watch": "^0.6.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

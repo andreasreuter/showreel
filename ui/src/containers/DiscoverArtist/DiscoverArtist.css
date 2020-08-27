@@ -1,0 +1,43 @@
+.discover-artist {
+
+}
+
+.discover-artist .list-item__title {
+  margin-top: 0px;
+}
+
+.discover-artist .heading {
+  /* don't break heading in a new line */
+  white-space: nowrap;
+}
+
+.discover-artist hr {
+  border: 0px;
+  border-top: 1px solid rgba(26, 26, 26, 0.2);
+  margin: 0px;
+}
+
+.thumbnails {
+  margin-bottom: 15px;
+}
+
+.thumbnails .thumbnail__column {
+  border-radius: 10px;
+  height: 220.5px;
+  max-height: 220.5px;
+  overflow: hidden;
+}
+
+.thumbnails .thumbnail__column a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.thumbnails .thumbnail__column .photography {
+  height: 220.5px;
+}
+
+.thumbnails .thumbnail__column a > img.image {
+  height: 100%;
+}

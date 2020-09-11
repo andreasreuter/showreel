@@ -1,4 +1,4 @@
-# Welcome to my showcase
+# Welcome to my React, Node + GraphQL showreel. It is a pleasure to have you watch my code base of a mobile only web app. I built the frontend with React, the backend is built in Node + GraphQL and in addition it is executable in AWS Lambda. I hope you share my interest in art.
 
 # UI
 The folder "ui" contains the frontend of an art discovery platform.
